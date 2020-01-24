@@ -39,3 +39,10 @@ Jan 24, 2020 12:36:04.77 Opening in existing browser session.
 Jan 24, 2020 12:38:44.89 Opening in existing browser session.
 Jan 24, 2020 12:44:06.47 Opening in existing browser session.
 Jan 24, 2020 12:46:04.34 Opening in existing browser session.
+Jan 24, 2020 13:14:47.90 Opening in existing browser session.
+Jan 24, 2020 13:20:28.89 Opening in existing browser session.
+Jan 24, 2020 14:03:04.49 [12700:1:0124/140304.495030:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+Jan 24, 2020 14:03:04.49 [12700:1:0124/140304.496001:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+Jan 24, 2020 14:04:20.45 [12843:1:0124/140420.455783:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+Jan 24, 2020 14:04:20.45 [12843:1:0124/140420.456948:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+Jan 24, 2020 14:09:25.55 Opening in existing browser session.
