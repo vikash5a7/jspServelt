@@ -11,3 +11,31 @@ Jan 24, 2020 10:34:16.39 Opening in existing browser session.
 Jan 24, 2020 10:34:17.25 [23188:1:0124/103417.254752:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
 Jan 24, 2020 10:34:17.25 [23188:1:0124/103417.255601:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
 Jan 24, 2020 10:36:21.67 Opening in existing browser session.
+Jan 24, 2020 11:24:36.72 [29700:29700:0124/112436.724855:ERROR:sandbox_linux.cc(372)] InitializeSandbox() called with multiple threads in process gpu-process.
+Jan 24, 2020 11:24:37.17 [29662:29662:0124/112437.178148:ERROR:account_tracker.cc(241)] AccessTokenFetched error: Invalid credentials (credentials rejected by client).
+Jan 24, 2020 11:30:44.88 Opening in existing browser session.
+Jan 24, 2020 11:36:57.77 [31119:1:0124/113657.773521:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+Jan 24, 2020 11:36:57.77 [31119:1:0124/113657.775443:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+Jan 24, 2020 11:37:44.96 [31200:1:0124/113744.965730:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+Jan 24, 2020 11:37:44.96 [31200:1:0124/113744.969065:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+Jan 24, 2020 11:37:47.92 [31262:1:0124/113747.924315:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+Jan 24, 2020 11:37:47.92 [31262:1:0124/113747.925437:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+Jan 24, 2020 11:37:47.93 [31262:1:0124/113747.927793:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+Jan 24, 2020 11:37:47.93 [31262:1:0124/113747.934046:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+Jan 24, 2020 11:37:52.36 [31159:1:0124/113752.366628:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+Jan 24, 2020 11:37:52.36 [31159:1:0124/113752.367577:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+Jan 24, 2020 11:37:52.51 [31159:1:0124/113752.515468:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+Jan 24, 2020 11:37:52.51 [31159:1:0124/113752.516638:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+Jan 24, 2020 11:37:52.53 [31159:1:0124/113752.538541:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+Jan 24, 2020 11:37:52.54 [31159:1:0124/113752.541269:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+Jan 24, 2020 11:38:22.99 [31298:1:0124/113822.998356:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+Jan 24, 2020 11:38:22.99 [31298:1:0124/113822.998935:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+Jan 24, 2020 11:51:25.60 Opening in existing browser session.
+Jan 24, 2020 11:51:26.15 Fontconfig error: Cannot load default config file
+Jan 24, 2020 12:12:43.60 [2961:2961:0124/121243.602918:ERROR:sandbox_linux.cc(372)] InitializeSandbox() called with multiple threads in process gpu-process.
+Jan 24, 2020 12:12:44.02 [2926:2926:0124/121244.023725:ERROR:account_tracker.cc(241)] AccessTokenFetched error: Invalid credentials (credentials rejected by client).
+Jan 24, 2020 12:12:44.50 Fontconfig error: Cannot load default config file
+Jan 24, 2020 12:36:04.77 Opening in existing browser session.
+Jan 24, 2020 12:38:44.89 Opening in existing browser session.
+Jan 24, 2020 12:44:06.47 Opening in existing browser session.
+Jan 24, 2020 12:46:04.34 Opening in existing browser session.
