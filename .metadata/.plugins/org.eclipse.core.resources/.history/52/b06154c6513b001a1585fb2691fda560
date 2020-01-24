@@ -1,0 +1,18 @@
+package com.bridgeLabz.DesignPattern.Visitor;
+
+public class ShoppingCartVisitorImpl implements ShoppingCartVisitor {
+
+	@Override
+	public int visit(Computer computer) {
+		
+		return 0;
+	}
+
+	@Override
+	public int visit(Printer printer) {
+		int cost = printer.getPriceOfCartidge() * printer.getNoOfCartidge();
+		System.out.println("Printer: " + printer.getModelNumber() +" " + ", cost= " +cost);
+		return cost;
+	}
+
+}

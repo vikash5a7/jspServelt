@@ -1,0 +1,8 @@
+package com.bridgeLabz.DesignPattern.SingleTone;
+/*
+ * when ever there is need then only instance will be created of the object
+ *  
+ */
+public class LazyIntialization {
+
+}

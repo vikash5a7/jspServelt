@@ -1,0 +1,5 @@
+package com.bridgeLabz.DesignPattern.SingleTone;
+
+public class LazyMain {
+
+}

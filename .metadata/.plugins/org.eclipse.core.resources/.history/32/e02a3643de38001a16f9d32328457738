@@ -1,0 +1,1 @@
+[{"Availability":"PM","Specialization":"eye","Id":"DOC20","Patients":3,"Name":"vikash"},{"Availability":"AM","Specialization":"leg","Id":"DOC406","Patients":1,"Name":"Ramu"},{"DoctorId":"DOC20","AppointmentTime":"12:31:33","PatientId":"PAT143","AppointmentDate":"2020-01-13""}]

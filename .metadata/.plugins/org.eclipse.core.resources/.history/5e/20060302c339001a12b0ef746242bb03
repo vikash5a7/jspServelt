@@ -1,0 +1,6 @@
+Builder design pattern is basically come from Creational design pattern 
+it's using when we have many parameter as arguments to send in constructor and it's 
+hard to maintain it then we go for the builder design pattern 
+
+when we do'nt want to send all the parameter in object intialization 
+(Generally we send optional parameter

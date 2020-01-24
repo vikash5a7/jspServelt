@@ -1,0 +1,5 @@
+package com.bridgeLabz.DesignPattern.Proxy;
+
+public class WebPageImplement {
+
+}

@@ -1,0 +1,13 @@
+package com.BridgeLabz.AdvJava.JDBC;
+
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class StoredProcedure {
+	public static void main(String[] args) {
+		DBConnectionDeom1.getInstanceOfDb().connection();
+	}
+
+}

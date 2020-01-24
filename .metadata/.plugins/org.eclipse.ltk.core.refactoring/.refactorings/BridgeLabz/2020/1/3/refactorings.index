@@ -1,0 +1,50 @@
+1578886283187	Delete element
+1578888087433	Delete element
+1578896275918	Rename method 'doctorChoice'
+1578899979392	Rename method 'menu'
+1578900038735	Rename method 'doctorDetails'
+1578900798521	Rename method 'patientDetailsNew'
+1578906599342	Delete element
+1578908009748	Delete element
+1578913590406	Rename local variable 'i'
+1578919683284	Delete element
+1578921639738	Delete element
+1578921658481	Rename type 'DeckOfCards'
+1578973704528	Delete element
+1578984825557	Extract local variable 'i'
+1578986144519	Infer generic type arguments
+1578993559969	Rename type 'Stock'
+1578998619259	Rename type 'LinkedList12'
+1579152572381	Move compilation unit
+1579152587977	Move compilation unit
+1579152598697	Copy compilation units
+1579152739444	Rename field 'filename'
+1579152826684	Rename field 'doctorPath'
+1579152866161	Rename field 'patientPath'
+1579152894524	Rename field 'appointmentPath'
+1579155728486	Rename field 'filename'
+1579169294819	Delete element
+1579175583897	Rename field 'stock'
+1579176069129	Rename local variable 'baseJson'
+1579235532762	Rename type 'Stock'
+1579235654093	Rename field 'stockImpl'
+1579256300133	Rename method 'buyShare'
+1579256315965	Rename method 'sellShare'
+1579326303073	Delete element
+1579329247674	Delete element
+1579329288250	Delete element
+1579331076613	Delete element
+1579331329095	Delete element
+1579331439003	Encapsulate field 'engine'
+1579331972274	Encapsulate field 'engine'
+1579332030352	Delete element
+1579340249923	Rename local variable 'AccountId2'
+1579340267485	Rename local variable 'AccountId'
+1579340278337	Rename local variable 'Choice'
+1579340335423	Change method 'Menu'
+1579340409371	Rename local variable 'Stock'
+1579340417907	Rename local variable 'Keys'
+1579340436753	Rename field 'FileReader'
+1579340486218	Rename method 'AccountId'
+1579343921774	Rename local variable 'totalNumberOfshare'
+1579349724426	Delete element

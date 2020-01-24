@@ -1,0 +1,27 @@
+package com.bridgeLabz.DesignPattern.Observer;
+
+public class OberSerImpl implements Observer {
+	
+	private String name ;
+	private Board board;
+	
+	public OberSerImpl(String name)
+	{
+		this.name= name;
+	}
+	
+	
+	
+	@Override
+	public void update() {
+		String msg = (String) board.getUpdate(this);
+	}
+
+	@Override
+	public void suscribe(Board board) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+}

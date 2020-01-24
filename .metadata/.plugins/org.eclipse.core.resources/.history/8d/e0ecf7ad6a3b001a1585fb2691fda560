@@ -1,0 +1,12 @@
+package com.BridgeLabz.AdvJava.annotation;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class FirstProgram {
+public static void main(String[] args) {
+	List list = new ArrayList();
+	list.add("vikash");
+	System.out.println(list);
+}
+}

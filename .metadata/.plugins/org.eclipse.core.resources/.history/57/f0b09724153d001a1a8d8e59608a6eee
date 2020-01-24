@@ -1,0 +1,12 @@
+package com.bridgeLabz.advJava.annotation;
+
+public class Third extends Second {
+	
+	@SuppressWarnings("deprecation")
+	public static void main(String[] args) {
+		Second s = new Second();
+		s.ram();
+		s.vikash();
+	}
+
+}

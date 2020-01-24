@@ -1,0 +1,27 @@
+package com.bridgeLabz.DesignPattern.Facade;
+
+public class Waiter {
+	
+	public static String deliveredFood(FoodType foodType)
+	{
+		Ingredient ingredient = new Ingredient();
+		switch (foodType) {
+		case PIZZA:
+			Food piza = new Pizz();
+			String pizzataItem = ingredient.getPizzaItem();
+			piza.prepareFood(pizzataItem);
+			break;
+
+		default:
+			break;
+		}
+		
+		
+		
+		
+		
+		return null;
+		
+	}
+
+}

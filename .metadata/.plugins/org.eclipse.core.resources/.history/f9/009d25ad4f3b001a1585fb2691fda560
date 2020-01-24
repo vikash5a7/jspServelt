@@ -1,0 +1,15 @@
+package com.bridgeLabz.DesignPattern.Visitor;
+
+public class Computer implements Item{
+
+	private int cost;
+	private String serialNumber;
+	
+	
+	@Override
+	public int accept(ShoppingCartVisitor visitor) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

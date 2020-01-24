@@ -1,0 +1,24 @@
+package com.BridgeLabz.AdvJava.JDBC;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class DBConnection {
+	private static Connection CONNECTION = null;
+	private static String dbUrl = "jdbc:mysql://localhost:3306/demo";
+	private static String user = "root";
+	private static String pass = "VIKASkumar@123";
+
+	public static Connection connection() {
+		try {
+			CONNECTION = DriverManager.getConnection(dbUrl, user, pass);
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return CONNECTION;
+
+	}
+
+}

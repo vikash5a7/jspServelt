@@ -1,0 +1,9 @@
+package com.bridgeLabz.DesignPattern.factoryPattern.Car;
+
+public class FactoryMainMethod {
+	public static void main(String[] args) {
+		Vehical car = VehicalFactory.getInstance("Car", 5);
+		System.out.println(car);
+	}
+
+}

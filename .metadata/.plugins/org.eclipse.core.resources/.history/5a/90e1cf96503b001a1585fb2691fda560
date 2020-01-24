@@ -1,0 +1,45 @@
+package com.bridgeLabz.DesignPattern.Visitor;
+
+public class Printer implements Item {
+	private int numberOfCartidge;
+	private int noOfCartidge;
+	private int priceOfCartidge;
+
+	public Printer(int numberOfCartidge, int noOfCartidge, int priceOfCartidge) {
+		super();
+		this.numberOfCartidge = numberOfCartidge;
+		this.noOfCartidge = noOfCartidge;
+		this.priceOfCartidge = priceOfCartidge;
+	}
+
+	public int getNumberOfCartidge() {
+		return numberOfCartidge;
+	}
+
+	public void setNumberOfCartidge(int numberOfCartidge) {
+		this.numberOfCartidge = numberOfCartidge;
+	}
+
+	public int getNoOfCartidge() {
+		return noOfCartidge;
+	}
+
+	public void setNoOfCartidge(int noOfCartidge) {
+		this.noOfCartidge = noOfCartidge;
+	}
+
+	public int getPriceOfCartidge() {
+		return priceOfCartidge;
+	}
+
+	public void setPriceOfCartidge(int priceOfCartidge) {
+		this.priceOfCartidge = priceOfCartidge;
+	}
+
+	@Override
+	public int accept(ShoppingCartVisitor visitor) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

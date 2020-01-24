@@ -1,0 +1,12 @@
+package com.bridgeLabz.DesignPattern.Visitor;
+
+public class Clients {
+	public static void main(String[] args) {
+		Item[] item = new Item[]
+				{
+					new Computer(2000, "compl12"), new Computer(23423, "Computer12342 "),
+					new Printer(12, 2342, "printer@342"), new Printer(234, 500, "Printer7934")
+				};
+	}
+
+}

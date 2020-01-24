@@ -1,0 +1,5 @@
+package com.bridgeLabz.DesignPattern.Adapter;
+
+public class Volt {
+
+}

@@ -1,0 +1,15 @@
+package com.bridgeLabz.DesignPattern.Observer;
+
+public class ObserverPatterClient {
+	public static void main(String[] args) {
+		ScoreBoard sb = new ScoreBoard();
+		Observer observer1 = new OberSerImpl("vikash");
+		Observer observer2 = new OberSerImpl("Ram");
+		Observer observer3 = new OberSerImpl("vicky");
+		Observer observer4 = new OberSerImpl("vishnu");
+		Observer observer5 = new OberSerImpl("vivek");
+		Observer observer6 = new OberSerImpl("Raju");
+		
+	}
+
+}

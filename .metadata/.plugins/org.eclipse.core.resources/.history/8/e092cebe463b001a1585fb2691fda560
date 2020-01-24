@@ -1,0 +1,19 @@
+package com.bridgeLabz.DesignPattern.Proxy;
+
+public class WebPageProxy implements WebPage{
+	private WebPage webpage;
+	
+	public WebPageProxy()
+	{
+		webpage = new WebPageImplement();
+	}
+	
+	
+	
+	@Override
+	public void render(String url) throws Exception {
+		
+		
+	}
+
+}

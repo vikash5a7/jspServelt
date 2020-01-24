@@ -1,0 +1,11 @@
+package com.BridgeLabz.AdvJava.annotation;
+
+public class Second {
+	
+	@Deprecated
+	void vikash()
+	{
+		System.out.println("Thisis vikash");
+	}
+
+}

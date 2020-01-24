@@ -1,0 +1,5 @@
+package com.bridgeLabz.DesignPattern.factoryPattern.Computer;
+
+public class Server {
+
+}

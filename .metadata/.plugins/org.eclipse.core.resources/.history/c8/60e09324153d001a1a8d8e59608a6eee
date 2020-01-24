@@ -1,0 +1,10 @@
+package com.bridgeLabz.advJava.annotation;
+
+
+public class CustomName {
+	@MyaAnnotion
+	public static void main(String[] args) {
+		System.out.println("vikash");
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.bridgeLabz.DesignPattern.Proxy;
+
+public class WebPageProxy implements WebPage{
+	private WebPage webpage;
+	@Override
+	public void render(String url) throws Exception {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

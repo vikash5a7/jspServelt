@@ -1,0 +1,12 @@
+package com.bridgeLabz.DesignPattern.Facade;
+
+public class Waiter {
+	Ingredient ingredient = new Ingredient();
+	public static String deliveredFood(FoodType foodType)
+	{
+		
+		return null;
+		
+	}
+
+}

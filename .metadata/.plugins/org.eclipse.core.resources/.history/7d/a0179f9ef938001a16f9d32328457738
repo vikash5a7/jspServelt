@@ -1,0 +1,59 @@
+package com.BridgeLabz.OOPS.StockManagament2;
+
+import java.io.File;
+
+import com.bridgeLabz.util.Utility;
+
+public class ControllerClass {
+	static Implementation service = new Implementation();
+	static File file;
+	static String FILE_PATH = "CompanyList.json";
+	public static void main(String[] args) {
+		Menu();
+	
+	}
+	private static void Menu() {
+		System.out.println("----------------Stock Managaments-------------");
+		System.out.println("Enter Your Choice\n1. Add Company Details"
+				+ " \n2. Remove Comapny Details\n3. Display Company details\n4. Search Company details\n5."
+				+ " Create Account\n6. Exit");
+		String Choice = Utility.inputNames();
+		String symbol ;
+		switch (Choice) {
+		case "1":
+			file = new File(FILE_PATH);
+			service.stockAccount(file);
+			Menu();
+			break;
+		case "2":
+			System.out.println("Enter Company symbol");
+			symbol = Utility.inputNames();
+			service.removeCompanyDetails(symbol);
+			Menu();
+			break;
+		case "3":
+			System.out.println("Display Company details");
+			service.displayCompanyDetail();
+			break;
+		case "4":
+			System.out.println("Enter company symbol");
+			symbol = Utility.inputNames();
+			service.displayCompanyAccordingToSymbol(symbol);
+			break;
+		case "5":
+			System.out.println("Create an Account");
+			break;
+		case"6":
+			Utility.quit();
+			
+		default:
+			System.out.println("Invalide........ please Enter Carefully");
+			Menu();
+			break;
+		}
+		
+	}
+
+	
+}
+

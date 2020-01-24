@@ -1,0 +1,5 @@
+package com.bridgelabz.advJava.reflectionApi.privateVar;
+
+public class Welcome {
+	private String message = "hello";
+}

@@ -1,0 +1,11 @@
+package com.bridgeLabz.DesignPattern.Mediator;
+
+public class Runway implements Command {
+	private IAtc actMediator;
+	@Override
+	public void land() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,31 @@
+{
+	"STOCK MARKET": {
+		"SONY": [
+			{
+				"CompanyName": "RAVI",
+				"Number Of Share": 1232,
+				"Price": 99792,
+				"CompanySymbol": "SONY",
+				"Date": "30-11-2019"
+			}
+		],
+		"RAM": [
+			{
+				"Company Name": "rav",
+				"Number Of Share": 1226,
+				"Price": 9935170.17828201,
+				"Company Symbol": "RAM",
+				"Date": "30-11-2019"
+			}
+		],
+		"SAM": [
+			{
+				"Company Name": "ir",
+				"Number OfShare": 56,
+				"Price": 46.0,
+				"Company Symbol": "SAM",
+				"Date": "02-12-2019"
+			}
+		]
+	}
+}

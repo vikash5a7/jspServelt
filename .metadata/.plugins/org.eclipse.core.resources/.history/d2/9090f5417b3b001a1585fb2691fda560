@@ -1,0 +1,8 @@
+package com.BridgeLabz.AdvJava.ReflectionApi.privateVar;
+
+public class ReflectionTest {
+	public static void main(String[] args) {
+		
+	}
+
+}

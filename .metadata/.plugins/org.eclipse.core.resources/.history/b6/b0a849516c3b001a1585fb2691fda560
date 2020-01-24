@@ -1,0 +1,7 @@
+package com.BridgeLabz.AdvJava.annotation;
+
+public class Third extends Second {
+	Second s=new Second();
+	s
+
+}

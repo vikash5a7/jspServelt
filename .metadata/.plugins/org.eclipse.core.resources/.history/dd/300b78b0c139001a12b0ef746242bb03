@@ -1,0 +1,15 @@
+package com.bridgeLabz.DesignPattern.Builder;
+
+public  static class VehicalBuilder {
+
+	private String engine;
+	private int wheel;
+	private int airBag;
+	public String getEngine() {
+		return engine;
+	}
+	public void setEngine(String engine) {
+		this.engine = engine;
+	}
+
+}

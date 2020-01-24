@@ -1,0 +1,28 @@
+package com.bridgeLabz.DesignPattern.Builder;
+
+public class Vehical {
+	// required parameter
+	private String engine;
+	private int wheel;
+
+	// optional parameter
+	private int airBag;
+
+	public String getEngine() {
+		return engine;
+	}
+
+	public int getWheel() {
+		return wheel;
+	}
+
+	public int getAirBag() {
+		return airBag;
+	}
+
+	// for setting the airBag
+	public void setAirBag(int airBag) {
+		this.airBag = airBag;
+	}
+
+}

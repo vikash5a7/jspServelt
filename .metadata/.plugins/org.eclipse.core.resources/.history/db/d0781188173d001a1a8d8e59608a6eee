@@ -1,0 +1,5 @@
+package com.bridgelabz.advJava.annotation;
+
+public @interface MyaAnnotion {
+	
+}

@@ -1,0 +1,6 @@
+package com.bridgelabz.advJava.annotation;
+
+public class MultivalueAnnotation {
+	
+
+}

@@ -1,0 +1,17 @@
+package com.bridgeLabz.DesignPattern.Mediator;
+
+public class Flight implements Command {
+	private IAtc iatcMediator;
+	public Flight(IAtc iatcMediator) {
+		this.iatcMediator = iatcMediator;
+	}
+	@Override
+	public void land() {
+		if(iatcMediator.isAvailable())
+		{
+			System.out.println("Landed SucessFully");
+		}
+	}
+	
+
+}

@@ -1,0 +1,9 @@
+package com.bridgelabz.advJava.reflectionApi.metadat;
+
+public class Person {
+	
+	private String name;
+	private int age;
+	private boolean flag;
+	
+}

@@ -1,0 +1,8 @@
+package com.bridgeLabz.DesignPattern.SingleTone;
+
+public class SingltoneMainEager {
+	public static void main(String[] args) {
+		
+	}
+
+}

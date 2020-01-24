@@ -1,0 +1,9 @@
+package com.bridgeLabz.DesignPattern.Facade;
+
+public class Waiter {
+	public String deliveredFood(FoodType foodType)
+	{
+		
+	}
+
+}

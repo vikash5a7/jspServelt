@@ -1,0 +1,21 @@
+package com.BridgeLabz.AdvJava.JDBC;
+
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class DeleteFromDataBase {
+	public static void main(String[] args) throws SQLException {
+		System.out.println("---- Deleting data from the data ----- ");
+		Connection connection = DBConnection.getInstanceOfDb().connection();
+		Statement createStatement = connection.createStatement();
+		ResultSet executeQuery = createStatement.executeQuery("select * from employees");
+		while (executeQuery.next()) {
+			System.out.println(executeQuery.getString("first_name"));
+			
+			
+		}
+	}
+
+}

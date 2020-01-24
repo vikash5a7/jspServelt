@@ -1,0 +1,2 @@
+INDEX VERSION 1.4+/home/mobicomp/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+1090566189.index

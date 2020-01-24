@@ -1,0 +1,36 @@
+package com.BridgeLabz.AdvJava.ReflectionApi.Meta;
+
+import java.lang.reflect.Modifier;
+import java.util.Arrays;
+
+public class Clients {
+	public static void main(String[] args) {
+		System.out.println("--- class name---_");
+		try {
+			Class<?> cl = Class.forName("com.BridgeLabz.AdvJava.ReflectionApi.Meta.Child");
+			System.out.println(cl.getName());
+			System.out.println(cl.getSimpleName());
+			
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		System.out.println("\n --- Parent class detail means  Super Class ---");
+		try {
+			Class<?> cl = Class.forName("com.BridgeLabz.AdvJava.ReflectionApi.Meta.Child");
+			System.out.println(cl.getSuperclass());
+			System.out.println("InterFace are : " + Arrays.toString(cl.getInterfaces()));
+			int modifiers = cl.getModifiers();
+			System.out.println("Modifiers: " + Modifier.toString(modifiers) );
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+	private static String getDeclaredConstructor(String string) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

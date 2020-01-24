@@ -1,0 +1,9 @@
+package com.bridgeLabz.DesignPattern.Builder;
+
+public class VehicalBuilder {
+
+	public String engine;
+	public int wheel;
+	public int airBag;
+
+}

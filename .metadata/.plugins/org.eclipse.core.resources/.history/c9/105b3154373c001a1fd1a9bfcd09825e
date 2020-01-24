@@ -1,0 +1,8 @@
+package com.BridgeLabz.AdvJava.JDBC;
+
+public class JDBCP2nd {
+	public static void main(String[] args) {
+		
+	}
+
+}

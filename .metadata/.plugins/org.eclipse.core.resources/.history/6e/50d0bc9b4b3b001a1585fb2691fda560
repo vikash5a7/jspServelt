@@ -1,0 +1,11 @@
+package com.bridgeLabz.DesignPattern.Mediator;
+
+public class Runway implements Command {
+
+	@Override
+	public void land() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

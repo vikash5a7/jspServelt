@@ -1,0 +1,29 @@
+package com.bridgeLabz.DesignPattern.Mediator;
+
+public class ImplementationAtc implements IAtc{
+
+	@Override
+	public void registerFlight(Flight flight) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void registerRunway(Runway runway) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setAvaility(boolean status) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void isAvailable() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

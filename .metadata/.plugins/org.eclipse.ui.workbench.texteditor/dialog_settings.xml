@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<item key="selection" value="patient"/>
+		<list key="findhistory">
+			<item value="package com.BridgeLabz.AdvJava.JDBC;"/>
+			<item value="patient"/>
+			<item value="[{&quot;Availability&quot;:&quot;PM&quot;,&quot;Specialization&quot;:&quot;eye&quot;,&quot;Id&quot;:&quot;DOCTOR20&quot;,&quot;Patients&quot;:4,&quot;Name&quot;:&quot;vikash&quot;},{&quot;Availability&quot;:&quot;AM&quot;,&quot;Specialization&quot;:&quot;leg&quot;,&quot;Id&quot;:&quot;DOCTOR406&quot;,&quot;Patients&quot;:1,&quot;Name&quot;:&quot;Ramu&quot;},{&quot;Availability&quot;:&quot;AM&quot;,&quot;Specialization&quot;:&quot;lungs&quot;,&quot;Id&quot;:&quot;DOCTOR60&quot;,&quot;Patients&quot;:0,&quot;Name&quot;:&quot;Raju&quot;},{&quot;Availability&quot;:&quot;Am&quot;,&quot;Specialization&quot;:&quot;Eye&quot;,&quot;Id&quot;:&quot;DOCTOR263&quot;,&quot;Patients&quot;:0,&quot;Name&quot;:&quot;Ramu&quot;}]"/>
+			<item value="{"/>
+			<item value="count"/>
+			<item value="[{&quot;Zip&quot;:824217,&quot;Address&quot;:&quot;Chaugain&quot;,&quot;FirstName&quot;:&quot;vikash&quot;,&quot;State&quot;:&quot;bihar&quot;,&quot;PhoneNumber&quot;:&quot;8825270327&quot;,&quot;LastName&quot;:&quot;kumar&quot;,&quot;City&quot;:&quot;gaya&quot;},{&quot;Zip&quot;:676867,&quot;Address&quot;:&quot;india&quot;,&quot;FirstName&quot;:&quot;ravi&quot;,&quot;State&quot;:&quot;Raipur&quot;,&quot;PhoneNumber&quot;:&quot;8825270328&quot;,&quot;LastName&quot;:&quot;raj&quot;,&quot;City&quot;:&quot;goa&quot;},{&quot;Zip&quot;:824217,&quot;Address&quot;:&quot;bodhgaya&quot;,&quot;FirstName&quot;:&quot;vicky&quot;,&quot;State&quot;:&quot;bihar&quot;,&quot;PhoneNumber&quot;:&quot;8825270328&quot;,&quot;LastName&quot;:&quot;kumar&quot;,&quot;City&quot;:&quot;gaya&quot;}]"/>
+			<item value="package com.BridgeLabz.OOPS.AdressBook;"/>
+			<item value="[{&quot;Zip&quot;:824217,&quot;Address&quot;:&quot;gaya&quot;,&quot;FirstName&quot;:&quot;vikash&quot;,&quot;State&quot;:&quot;vikash&quot;,&quot;PhoneNumber&quot;:8.825270327E9,&quot;LastName&quot;:&quot;kumar&quot;,&quot;City&quot;:&quot;gaya&quot;},{&quot;Zip&quot;:676867,&quot;Address&quot;:&quot;india&quot;,&quot;FirstName&quot;:&quot;ravi&quot;,&quot;State&quot;:&quot;ravi&quot;,&quot;PhoneNumber&quot;:&quot;8825270328&quot;,&quot;LastName&quot;:&quot;raj&quot;,&quot;City&quot;:&quot;goa&quot;}]"/>
+			<item value="/**"/>
+			<item value="Mobile"/>
+			<item value="mobile"/>
+			<item value="Congratulation You got an appointment"/>
+			<item value="package com.BridgeLabz.OOPS.Clinic;"/>
+		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="847"/>
+		<item key="DIALOG_Y_ORIGIN" value="300"/>
+		<item key="DIALOG_WIDTH" value="348"/>
+		<item key="DIALOG_HEIGHT" value="440"/>
+		<item key="DIALOG_FONT_NAME" value="1|Ubuntu|11.0|0|GTK|1|"/>
+	</section>
+</section>

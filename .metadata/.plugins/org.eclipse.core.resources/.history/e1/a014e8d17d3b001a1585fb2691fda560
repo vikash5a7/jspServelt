@@ -1,0 +1,14 @@
+package com.BridgeLabz.AdvJava.ReflectionApi.Meta;
+
+public class Clients {
+	public static void main(String[] args) {
+		try {
+			Class<?> cl = Class.forName("com.BridgeLabz.AdvJava.ReflectionApi.Meta.Child");
+			System.out.println(cl.getName());
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+}

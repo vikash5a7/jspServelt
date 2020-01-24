@@ -1,0 +1,18 @@
+package com.BridgeLabz.OOPS.StockManagament2;
+
+/**
+ * @author vikash kumar
+ * @version 1.1
+ * @date 13-01-2020
+ *
+ */
+public class StockPortfolio {
+	private Company companySymbol ;
+	public Company getCompanySymbol() {
+		return companySymbol;
+	}
+	public void setCompanySymbol(Company companySymbol) {
+		this.companySymbol = companySymbol;
+	}
+
+}

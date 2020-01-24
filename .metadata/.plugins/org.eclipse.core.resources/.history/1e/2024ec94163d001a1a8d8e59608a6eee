@@ -1,0 +1,6 @@
+package com.bridgelabz.oops.Clinic;
+
+public interface IServices {
+	public void addDoctor();
+	public void addPatient();
+}

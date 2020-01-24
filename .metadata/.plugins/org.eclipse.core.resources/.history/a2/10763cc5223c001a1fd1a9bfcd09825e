@@ -1,0 +1,25 @@
+package com.BridgeLabz.AdvJava.JDBC;
+
+import java.sql.*;
+
+public class TestMysql {
+	public static void main(String[] args) {
+		Connection con;
+		Statement st;
+		ResultSet rs;
+		try {
+
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/vikash?user=root&" + "VIKASkumar@123");
+			st = con.createStatement();
+			rs = st.executeQuery("select * from student");
+			while (rs.next()) {
+				System.out.println(rs.getInt("std_id"));
+
+			}
+
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+	}
+
+}
