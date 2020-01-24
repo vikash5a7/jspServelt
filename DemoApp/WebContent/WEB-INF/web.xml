@@ -3,7 +3,7 @@
 	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
 	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
 	id="WebApp_ID" version="4.0">
-	<servlet>
+<!-- <servlet>
 		<servlet-name>abc</servlet-name>
 		<servlet-class>com.bridgelabz.AddServlet</servlet-class>
 	</servlet>
@@ -20,6 +20,9 @@
 	<servlet-mapping>
 		<servlet-name>square</servlet-name>
 		<url-pattern>/sq</url-pattern>
-	</servlet-mapping>
+	</servlet-mapping>  -->
 
+	<welcome-file-list>  
+   <welcome-file>index.html</welcome-file>  
+  </welcome-file-list> 
 </web-app>
