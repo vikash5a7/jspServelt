@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class RegistrionForm
  */
-@WebServlet("/RegistrionForm")
+//@WebServlet("/RegistrionForm")
 public class RegistrionForm extends HttpServlet {
 
 	/**

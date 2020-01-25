@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="java.util.stream.Stream"/>
     <fullyQualifiedTypeName name="java.nio.file.Path"/>
     <fullyQualifiedTypeName name="java.nio.file.Files"/>
@@ -48,16 +47,17 @@
     <fullyQualifiedTypeName name="com.BridgeLabz.AdvJava.ReflectionApi.privateVar.Welcome"/>
     <fullyQualifiedTypeName name="com.BridgeLabz.AdvJava.ReflectionApi.Meta.Parents"/>
     <fullyQualifiedTypeName name="com.BridgeLabz.AdvJava.ReflectionApi.Meta.Intest"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="java.lang.module.ModuleDescriptor.Exports.Modifier"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Modifier"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.sql.Statement"/>
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
-    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
-    <fullyQualifiedTypeName name="java.sql.Connection"/>
     <fullyQualifiedTypeName name="com.BridgeLabz.AdvJava.JDBC.DBConnectionDeom1"/>
     <fullyQualifiedTypeName name="com.BridgeLabz.AdvJava.JDBC.DBConnection"/>
     <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="com.bridgelab.Sql.DBConnection"/>
 </qualifiedTypeNameHistroy>
