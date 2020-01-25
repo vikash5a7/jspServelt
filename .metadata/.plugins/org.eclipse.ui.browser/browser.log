@@ -193,3 +193,10 @@ Jan 24, 2020 19:22:40.43 [13893:1:0124/192240.437973:ERROR:child_process_sandbox
 Jan 24, 2020 19:22:40.43 [13893:1:0124/192240.438724:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
 Jan 24, 2020 19:22:40.43 [13893:1:0124/192240.439191:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
 Jan 24, 2020 19:22:42.07 [13893:1:0124/192242.079683:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+Jan 24, 2020 19:25:54.56 [13893:1:0124/192554.566349:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+Jan 24, 2020 19:25:54.56 [13893:1:0124/192554.568405:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+
+Jan 25, 2020 09:19:00.34 NEW SESSION
+Jan 25, 2020 09:19:00.34 Opening in existing browser session.
+Jan 25, 2020 09:30:52.25 Opening in existing browser session.
+Jan 25, 2020 09:36:41.30 Opening in existing browser session.

@@ -29,15 +29,22 @@ public class RegistrionForm extends HttpServlet {
 		String email = request.getParameter("user_email");
 		String gender = request.getParameter("user_gender");
 		String course = request.getParameter("user_course");
-		String checked = request.getParameter("checked");
+		String condition = request.getParameter("condition");
+		if (condition != null) {
+			if (condition.equals("checked")) {
+				out.println("<h2> Welcome to Register Servlet</h2>");
+				out.println("<h4>Your Name is " + name + " </h4>");
+				out.println("<h4> Your password is: " + pass + " </h4>");
+				out.println("<h4> Your Email is: " + email + " </h4>");
+				out.println("<h4> Your Gender is: " + gender + " </h4>");
+				out.println("<h4> Your Course is: " + course + " </h4>");
 
-		out.println("<h4>Your Name is " + name + " </h4>");
-		out.println("<h4> Your password is: " + pass + " </h4>");
-		out.println("<h4> Your Email is: " + email + " </h4>");
-		out.println("<h4> Your Gender is: " + gender + " </h4>");
-		out.println("<h4> Your Course is: " + course + " </h4>");
-		out.println("<h4> Your Course is: " + checked + " </h4>");
+			} else {
+				out.println("<h2> you have not accepted term and condition<h2>");
+			}
 
+		} else {
+			out.println("<h2> you have not accepted term and condition<h2>");
+		}
 	}
-
 }

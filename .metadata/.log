@@ -4906,3 +4906,13 @@ Caused by: java.lang.NullPointerException
 	at org.eclipse.jst.jee.model.internal.mergers.WebApp3Merger.mergeServlets(WebApp3Merger.java:36)
 	at org.eclipse.jst.jee.model.internal.mergers.WebAppMerger.process(WebAppMerger.java:79)
 	... 164 more
+!SESSION 2020-01-25 09:11:42.449 -----------------------------------------------
+eclipse.buildId=4.14.0.I20191210-0610
+java.version=11.0.5
+java.vendor=Private Build
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2020-01-25 09:32:19.298
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v9.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
