@@ -462,3 +462,4 @@ Jan 27, 2020 14:07:26.40 [21026:21046:0127/140726.404867:ERROR:connection_factor
 Jan 27, 2020 14:17:26.41 [21026:21046:0127/141726.410425:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
 Jan 27, 2020 14:27:26.41 [21026:21046:0127/142726.414159:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
 Jan 27, 2020 14:37:26.41 [21026:21046:0127/143726.416942:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Jan 27, 2020 14:39:55.70 [21026:21046:0127/143955.704090:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
