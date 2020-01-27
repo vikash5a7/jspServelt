@@ -2,12 +2,14 @@ package com.bordgelabz;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.lang.ProcessBuilder.Redirect;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 import javax.servlet.ServletException;
+import javax.servlet.annotation.MultipartConfig;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -18,11 +20,12 @@ import com.bridgelab.Sql.DBConnection;
  * Servlet implementation class Register
  */
 
+@MultipartConfig
 public class Register extends HttpServlet {
 
-	@Override
-	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+	protected void service(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
+		response.setContentType("text/html;charset=UTF-8");
 		System.out.println("hiii... i'm do post");
 		String userName = request.getParameter("user_name");
 		String userPass = request.getParameter("user_pass");
@@ -33,8 +36,7 @@ public class Register extends HttpServlet {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			PrintWriter out = response.getWriter();
-		
-			
+
 			/*
 			 * Creating manually connection with database
 			 * 
@@ -45,11 +47,10 @@ public class Register extends HttpServlet {
 			 *
 			 */
 
-			
 			// Established connection with database...
-			
+
 			Connection conn = DBConnection.getInstanceOfDb().connection();
-			
+
 			System.out.println("Conection....." + conn);
 			String q = "insert into user(name,password,email) values(?,?,?)";
 			PreparedStatement pStatements = conn.prepareStatement(q);
@@ -57,11 +58,9 @@ public class Register extends HttpServlet {
 			pStatements.setString(2, userPass);
 			pStatements.setString(3, userEmail);
 			pStatements.executeUpdate();
-			out.println("<html><body style='background: url('img/background.jpg'); background-size: cover; background-attachment: fixed;'>");
-			out.println("<h1>chal pahli Fursat Me nikal</h1>");
-			out.println("<h4>Ho gaya tera registration..</h4>");
-			out.println("</body></html>");
-			System.out.println("Done...!");
+			out.println("Sucessfully Done");
+			
+			System.out.println("Done.....");
 
 		} catch (SQLException | ClassNotFoundException e) {
 			// TODO Auto-generated catch block
