@@ -1,0 +1,63 @@
+ProGuard Detecting Malicious Accounts in Social-Network-Based Online Promotions
+============================================================
+
+Bank Admin
+
+--- Login
+
+--- View all users and authorize
+
+--- View all Sellers and authorize
+
+--- Set Limit Access and view
+
+--- View all malacious users Based on Product Purchase(user tries to purchase with no balance) and block if they to do same thing more than the access limit
+
+--- View all malacious users Based on Amount Transfer(user tries to transfer to another user with no balance) and block if they to do same thing more than the access limit
+
+--- List all Malacious seller with Malware details and mention this account holder as Spam account and block this user
+
+-- view user and seller un block request and un block
+
+--- View No.of Malacious Users and Normal Users in chart
+
+--- View product rank in chart
+
+
+
+
+
+End User
+
+--- Register with Location and Login and Request to un block if u blocked
+
+--- View your profiles with Account Type(Malacious or Normal)
+
+--- Create Bank Account,View Account,View Mini Statement
+
+--- Search Frieds and Find Friends,Give Authorization
+
+--- View Your Friends
+
+--- Search Products by content keyword and view the details,purchase the product
+
+--- Transfer the amount to your friend
+
+
+
+Sellers
+
+--- Register and Login and Request to un block if u blocked
+
+--- View Profile with account type
+
+--- Add Product with pcat,pname,manufacturer,pdesc with browse file,filename,pprice,puses,pimage
+
+--- View all products with rank and ratings
+
+--- View all purchased users with total Bill and malacious users(user tries to purchase with no balance)
+
+                         
+                    
+                 
+
