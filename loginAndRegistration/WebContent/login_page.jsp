@@ -1,4 +1,4 @@
-
+<%@page import="com.bridgelabz.model.Message"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -40,21 +40,20 @@
 							<p>Login here</p>
 						</div>
 
-						<%--   <%
-                                Message m = (Message) session.getAttribute("msg");
+						<%
+						 Message m= (Message) session.getAttribute("msg");
                                 if (m != null) {
                             %>
-                            <div class="alert <%= m.getCssClass() %>" role="alert">
-                                <%= m.getContent() %>
-                            </div> 
+						<div class="alert <%= m.getCssClass() %>" role="alert">
+							<%= m.getContent() %>
+						</div>
 
 
-                            <%        
+						<%        
                                     session.removeAttribute("msg");
                                 }
 
                             %>
- --%>
 
 
 						<div class="card-body">

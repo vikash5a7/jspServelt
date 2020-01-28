@@ -25,11 +25,15 @@
         </div>
       </li>
      <li class="nav-item">
+      <li class="nav-item">
+                <a class="nav-link" href="profile.jsp">Profile</a>
+            </li>
                 <a class="nav-link" href="login_page.jsp"> <span class="fa fa-user-circle "></span> Login</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="register_page.jsp"> <span class="fa fa-user-plus "></span> Sign up</a>
             </li>
+           
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">

@@ -1,9 +1,11 @@
 package com.bridgelabz.service;
 
+import java.io.Console;
 import java.io.IOException;
 import java.io.PrintWriter;
 
 import javax.servlet.ServletException;
+import javax.servlet.annotation.MultipartConfig;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -14,14 +16,18 @@ import com.bridgelabz.model.User;
 import com.bridgelabz.util.DbConnectionProvider;
 
 /**
+ * 
  * Servlet implementation class RegisterServlets
+ * 
  */
-
+@MultipartConfig
 public class RegisterServlets extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	/**
 	 * @see HttpServlet#HttpServlet()
+	 * 
+	 * 
 	 */
 	public RegisterServlets() {
 		super();
@@ -43,36 +49,19 @@ public class RegisterServlets extends HttpServlet {
 			String about = request.getParameter("about");
 			System.out.println(gender);
 			System.out.println(about);
-			
+
 			UserDao dao = new UserDao(DbConnectionProvider.getInstanceOfDb().connectionProvider());
-			
-			// creating user and setting it's parameter in contractor 
-			User user =new User(name, email,password,gender,about);
-		 if(dao.saveUser(user))
-		 {
-			 System.out.println("done");
-			 out.print("done");
-		 }
-		 else
-		 {
-			 System.out.println("errorrr.....");
-			 out.print("Something error");
-		 }
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
+
+			// creating user and setting it's parameter in contractor
+			User user = new User(name, email, password, gender, about);
+			if (dao.saveUser(user)) {
+				System.out.println("done");
+				out.print("done");
+			} else {
+				System.out.println("errorrr.....");
+				out.print("Something error");
+			}
+
 		}
 
 	}

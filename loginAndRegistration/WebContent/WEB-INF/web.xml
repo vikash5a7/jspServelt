@@ -13,7 +13,25 @@
 		<servlet-name>RegisterServlet</servlet-name>
 		<url-pattern>/RegisterServlets</url-pattern>
 	</servlet-mapping>
+	<servlet>
+		<servlet-name>login</servlet-name>
+		<servlet-class>com.bridgelabz.service.LoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
 
+		<servlet-name>login</servlet-name>
+		<url-pattern>/LoginServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>logout</servlet-name>
+		<servlet-class>com.bridgelabz.service.LogoutServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+
+		<servlet-name>logout</servlet-name>
+		<url-pattern>/LogoutServlet</url-pattern>
+	</servlet-mapping>
 
 
 	<welcome-file-list>

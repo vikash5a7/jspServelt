@@ -15,7 +15,7 @@ public class DbConnectionProvider {
 
 	public Connection connectionProvider(){
 		try {
-			Class.forName("com.mysql.jdbc.Driver");
+			Class.forName("com.mysql.cj.jdbc.Driver");
 			connection = DriverManager.getConnection(DBURL, USER, PASS);
 			DatabaseMetaData metaData = connection.getMetaData();
 			System.out.println("DataBase Connect SuccessFully......");

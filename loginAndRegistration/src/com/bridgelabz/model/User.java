@@ -14,6 +14,28 @@ public class User {
 	private String gender;
 	private Timestamp dateTime;
 	private String about;
+	private String pic;
+
+	public User(int id, String name, String email, String password, String gender, Timestamp dateTime, String about,
+			String pic) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.email = email;
+		this.password = password;
+		this.gender = gender;
+		this.dateTime = dateTime;
+		this.about = about;
+		this.pic = pic;
+	}
+
+	public String getPic() {
+		return pic;
+	}
+
+	public void setPic(String pic) {
+		this.pic = pic;
+	}
 
 	public User(int id, String name, String email, String password, String gender, Timestamp dateTime, String about) {
 		super();
