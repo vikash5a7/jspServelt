@@ -1,6 +1,7 @@
-<%@page import="com.bridgelabz.entities.User"%>
+<%@page import="com.bridgelabz.entities.*"%>
+<%@page import="com.bridgelabz.entities.*"%>
 <%@page import="com.bridgelabz.dao.LikeDao"%>
-<%@page import="com.bridgelabz.entities.Post"%>
+
 <%@page import="java.util.List"%>
 <%@page import="com.bridgelabz.helper.ConnectionProvider"%>
 <%@page import="com.bridgelabz.dao.PostDao"%>

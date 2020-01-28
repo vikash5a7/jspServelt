@@ -1,5 +1,5 @@
 
-<%@page import="com.bridgelabz.entities.Message"%>
+<%@page import="com.bridgelabz.entities.*"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>

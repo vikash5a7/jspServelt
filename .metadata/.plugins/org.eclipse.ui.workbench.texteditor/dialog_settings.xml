@@ -8,6 +8,7 @@
 		<item key="isRegEx" value="false"/>
 		<item key="selection" value="patient"/>
 		<list key="findhistory">
+			<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;"/>
 			<item value="package com.BridgeLabz.AdvJava.JDBC;"/>
 			<item value="patient"/>
 			<item value="[{&quot;Availability&quot;:&quot;PM&quot;,&quot;Specialization&quot;:&quot;eye&quot;,&quot;Id&quot;:&quot;DOCTOR20&quot;,&quot;Patients&quot;:4,&quot;Name&quot;:&quot;vikash&quot;},{&quot;Availability&quot;:&quot;AM&quot;,&quot;Specialization&quot;:&quot;leg&quot;,&quot;Id&quot;:&quot;DOCTOR406&quot;,&quot;Patients&quot;:1,&quot;Name&quot;:&quot;Ramu&quot;},{&quot;Availability&quot;:&quot;AM&quot;,&quot;Specialization&quot;:&quot;lungs&quot;,&quot;Id&quot;:&quot;DOCTOR60&quot;,&quot;Patients&quot;:0,&quot;Name&quot;:&quot;Raju&quot;},{&quot;Availability&quot;:&quot;Am&quot;,&quot;Specialization&quot;:&quot;Eye&quot;,&quot;Id&quot;:&quot;DOCTOR263&quot;,&quot;Patients&quot;:0,&quot;Name&quot;:&quot;Ramu&quot;}]"/>

@@ -1,11 +1,8 @@
 INDEX VERSION 1.4+/home/mobicomp/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
-3588401083.index
 2710363012.index
-2935603764.index
-594222059.index
-2935603764.index
-1692582295.index
-428574701.index
-2330331161.index
-1612110800.index
+3100488822.index
+1942049104.index
 2028774647.index
+1612110800.index
+428574701.index
+3588401083.index

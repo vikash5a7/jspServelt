@@ -1,10 +1,9 @@
 
-<%@page import="com.bridgelabz.entities.Category"%>
+<%@page import="com.bridgelabz.entities.*"%>
+<%@page import="com.bridgelabz.entities.*"%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="com.bridgelabz.helper.ConnectionProvider"%>
 <%@page import="com.bridgelabz.dao.PostDao"%>
-<%@page import="com.bridgelabz.entities.Message"%>
-<%@page import="com.bridgelabz.entities.User"%>
 <%@page errorPage="error_page.jsp" %>
 <%
 
