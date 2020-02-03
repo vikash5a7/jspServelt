@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.bridgeLabz.DesignPattern.factoryPattern.Car.Vehical"/>
-    <fullyQualifiedTypeName name="com.bridgeLabz.DesignPattern.factoryPattern.Car.VehicalFactory"/>
-    <fullyQualifiedTypeName name="com.bridgeLabz.DesignPattern.Builder.VehicalBuilder"/>
     <fullyQualifiedTypeName name="com.bridgeLabz.util.utility"/>
     <fullyQualifiedTypeName name="com.BridgeLabz.OOPS.StockManagament2.UtilityForStock"/>
     <fullyQualifiedTypeName name="com.bridgeLabz.DesignPattern.Facade.Ingredient"/>
@@ -55,9 +52,12 @@
     <fullyQualifiedTypeName name="javax.servlet.annotation.MultipartConfig"/>
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
     <fullyQualifiedTypeName name="com.bridgelabz.model.User"/>
-    <fullyQualifiedTypeName name="com.bridgelabz.dao.UserDao"/>
-    <fullyQualifiedTypeName name="com.bridgelabz.util.DbConnectionProvider"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="com.bridgelabz.model.Message"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="com.bridgelabz.dao.UserDao"/>
+    <fullyQualifiedTypeName name="com.bridgelabz.util.DbConnectionProvider"/>
+    <fullyQualifiedTypeName name="com.bridgelabz.config.DatabaseInfo"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.util.FatalError"/>
 </qualifiedTypeNameHistroy>

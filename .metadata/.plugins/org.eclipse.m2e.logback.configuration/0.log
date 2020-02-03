@@ -294,3 +294,7 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact jstl:jstl:jar
 2020-01-28 10:21:26,736 [Worker-81: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context-support:3.0.3.RELEASE
 2020-01-28 10:21:26,736 [Worker-81: Download sources and javadoc] WARN  o.e.m.j.internal.DownloadSourcesJob - IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/LoginAndRegistration
 2020-01-29 09:23:31,685 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-02-03 08:39:11,826 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-02-03 08:39:13,064 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2020-02-03 11:17:36,433 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-02-03 11:41:56,838 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

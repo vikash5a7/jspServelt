@@ -13,52 +13,40 @@ public class User {
 	private String password;
 	private String gender;
 	private Timestamp dateTime;
-	private String about;
+	private String userInfo;
 	private String pic;
 
-	public User(int id, String name, String email, String password, String gender, Timestamp dateTime, String about,
+	public User(String name, String email, String password, String gender, String userInfo) {
+		super();
+		this.name = name;
+		this.email = email;
+		this.password = password;
+		this.gender = gender;
+		this.userInfo = userInfo;
+	}
+
+	public User(int id, String name, String email, String password, String gender, String userInfo) {
+		this.id = id;
+		this.name = name;
+		this.email = email;
+		this.password = password;
+		this.gender = gender;
+		this.userInfo = userInfo;
+		
+	}
+
+	public User(String name, String email, String password, String gender, Timestamp dateTime, String userInfo,
 			String pic) {
-		super();
-		this.id = id;
 		this.name = name;
 		this.email = email;
 		this.password = password;
 		this.gender = gender;
 		this.dateTime = dateTime;
-		this.about = about;
+		this.userInfo = userInfo;
 		this.pic = pic;
-	}
-
-	public String getPic() {
-		return pic;
-	}
-
-	public void setPic(String pic) {
-		this.pic = pic;
-	}
-
-	public User(int id, String name, String email, String password, String gender, Timestamp dateTime, String about) {
-		super();
-		this.id = id;
-		this.name = name;
-		this.email = email;
-		this.password = password;
-		this.gender = gender;
-		this.dateTime = dateTime;
-		this.about = about;
-	}
-
-	public User(String name, String email, String password, String gender, String about) {
-		super();
-		this.name = name;
-		this.email = email;
-		this.password = password;
-		this.gender = gender;
-		this.about = about;
 	}
 
 	public User() {
-		super();
 	}
 
 	public int getId() {
@@ -109,12 +97,20 @@ public class User {
 		this.dateTime = dateTime;
 	}
 
-	public String getAbout() {
-		return about;
+	public String getUserInfo() {
+		return userInfo;
 	}
 
-	public void setAbout(String about) {
-		this.about = about;
+	public void setUserInfo(String userInfo) {
+		this.userInfo = userInfo;
+	}
+
+	public String getPic() {
+		return pic;
+	}
+
+	public void setPic(String pic) {
+		this.pic = pic;
 	}
 
 }

@@ -2,7 +2,6 @@ package com.bridgelabz.service;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -20,14 +19,6 @@ import com.bridgelabz.util.DbConnectionProvider;
 public class LoginServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
-	/**
-	 * @see HttpServlet#HttpServlet()
-	 */
-	public LoginServlet() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
-
 	@Override
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
@@ -42,7 +33,6 @@ public class LoginServlet extends HttpServlet {
 		try {
 			if (user == null) {
 				// not valid or password incorrect
-				System.out.println("Not valid user");
 				Message msg = new Message("Invalid Details! try with another", "error", "alert-danger");
 				response.sendRedirect("login_page.jsp");
 				HttpSession session = request.getSession();
@@ -50,7 +40,6 @@ public class LoginServlet extends HttpServlet {
 
 			} else {
 				HttpSession s = request.getSession();
-				System.out.println(user.getName());
 				s.setAttribute("currentUser", user);
 				response.sendRedirect("profile.jsp");
 			}

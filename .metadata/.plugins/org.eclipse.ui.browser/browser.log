@@ -799,3 +799,15 @@ Jan 28, 2020 19:37:58.09 [23682:1:0128/193758.093188:ERROR:child_process_sandbox
 Jan 28, 2020 19:37:58.09 [23682:1:0128/193758.094389:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
 Jan 28, 2020 19:38:08.57 [23681:1:0128/193808.572894:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
 Jan 28, 2020 19:38:08.57 [23681:1:0128/193808.574412:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+
+Feb 03, 2020 11:18:35.77 NEW SESSION
+Feb 03, 2020 11:18:35.77 [4686:4686:0203/111835.773869:ERROR:sandbox_linux.cc(372)] InitializeSandbox() called with multiple threads in process gpu-process.
+Feb 03, 2020 11:18:36.47 [4650:4650:0203/111836.470130:ERROR:account_tracker.cc(241)] AccessTokenFetched error: Invalid credentials (credentials rejected by client).
+Feb 03, 2020 11:18:36.47 [4650:4650:0203/111836.470742:ERROR:account_info_fetcher.cc(60)] OnGetTokenFailure: Invalid credentials (credentials rejected by client).
+Feb 03, 2020 11:30:08.55 Opening in existing browser session.
+
+Feb 03, 2020 12:49:31.50 NEW SESSION
+Feb 03, 2020 12:49:31.50 Opening in existing browser session.
+Feb 03, 2020 13:00:43.49 Opening in existing browser session.
+Feb 03, 2020 16:53:32.43 [31242:31242:0203/165332.430991:ERROR:sandbox_linux.cc(372)] InitializeSandbox() called with multiple threads in process gpu-process.
+Feb 03, 2020 16:53:32.60 [31204:31204:0203/165332.607682:ERROR:account_tracker.cc(241)] AccessTokenFetched error: Invalid credentials (credentials rejected by client).
