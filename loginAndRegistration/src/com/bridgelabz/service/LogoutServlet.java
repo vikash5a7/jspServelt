@@ -13,6 +13,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+import org.apache.log4j.Logger;
+
 import com.bridgelabz.model.Message;
 
 /**
@@ -22,7 +24,8 @@ import com.bridgelabz.model.Message;
 public class LogoutServlet extends HttpServlet {
 
 	private static final long serialVersionUID = -4640444441703845486L;
-
+	static final Logger LOGGER = Logger.getLogger(LogoutServlet.class);
+	
 	protected void processRequest(HttpServletRequest request, HttpServletResponse response) throws IOException {
 		response.setContentType("text/html;charset=UTF-8");
 		try (PrintWriter out = response.getWriter()) {
@@ -39,6 +42,7 @@ public class LogoutServlet extends HttpServlet {
 			s.removeAttribute("currentUser");
 
 			Message m = new Message("Logout Successfully", "success", "alert-success");
+			LOGGER.debug("SucessFully Logout");
 
 			s.setAttribute("msg", m);
 

@@ -5,17 +5,21 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+import org.apache.log4j.Logger;
+
 import com.bridgelabz.config.DBconfig;
 import com.bridgelabz.model.User;
 
 public class UserDao {
-
+	static final Logger LOGGER = Logger.getLogger(UserDao.class);
+	
 	private Connection con;
 
 	// constructor using
 	public UserDao(Connection con) {
 		this.con = con;
 	}
+	
 
 	// method to insert the user..
 
@@ -35,7 +39,7 @@ public class UserDao {
 			f = true;
 
 		} catch (Exception e) {
-			e.printStackTrace();
+			LOGGER.error(e);
 		}
 		return f;
 
@@ -63,7 +67,7 @@ public class UserDao {
 
 			}
 		} catch (SQLException e) {
-			e.printStackTrace();
+			LOGGER.error(e);
 		}
 
 		return user;

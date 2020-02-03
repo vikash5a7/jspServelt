@@ -1,1 +1,6 @@
 2020-02-03 19:21:22 DEBUG Log4jPropertiesConfigurationExample:52 - sucessfull Logingvishal kumar
+2020-02-03 19:31:02 DEBUG LoginServlet:50 - sucessfull Logingvikash kumar
+2020-02-03 19:48:19 DEBUG DbConnectionProvider:23 - Succefully Connected to database
+2020-02-03 19:48:19 WARN  LoginServlet:40 - Invalide password
+2020-02-03 19:48:31 DEBUG DbConnectionProvider:23 - Succefully Connected to database
+2020-02-03 19:48:31 DEBUG LoginServlet:50 - sucessfull Loging with  vikash kumar
