@@ -72,7 +72,7 @@
 						data-toggle="modal" data-target="#myModal">
 						<span class="fa fa-user"></span><%=user.getName()%></button> </a>
 				</li>
-				<li><a class="nav-link" href="LogoutServlet"> <span
+				<li><a class="nav-link" href="logoutServlet"> <span
 						class="fa fa-user-plus"></span>Logout
 				</a></li>
 

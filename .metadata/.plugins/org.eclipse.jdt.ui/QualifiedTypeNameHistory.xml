@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.bridgeLabz.util.utility"/>
-    <fullyQualifiedTypeName name="com.BridgeLabz.OOPS.StockManagament2.UtilityForStock"/>
-    <fullyQualifiedTypeName name="com.bridgeLabz.DesignPattern.Facade.Ingredient"/>
-    <fullyQualifiedTypeName name="com.bridgeLabz.DesignPattern.Facade.Pasta"/>
-    <fullyQualifiedTypeName name="com.bridgeLabz.DesignPattern.Facade.Waiter"/>
     <fullyQualifiedTypeName name="com.bridgeLabz.DesignPattern.Facade.FoodType"/>
     <fullyQualifiedTypeName name="com.bridgeLabz.DesignPattern.Facade.Food"/>
     <fullyQualifiedTypeName name="com.bridgeLabz.DesignPattern.Facade.Pizz"/>
@@ -22,7 +17,6 @@
     <fullyQualifiedTypeName name="com.bridgeLabz.DesignPattern.Visitor.ShoppingCartVisitorImpl"/>
     <fullyQualifiedTypeName name="java.lang.Object"/>
     <fullyQualifiedTypeName name="com.bridgeLabz.DesignPattern.Observer.Board"/>
-    <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
     <fullyQualifiedTypeName name="com.bridgeLabz.DesignPattern.Observer.ScoreBoard"/>
     <fullyQualifiedTypeName name="com.bridgeLabz.DesignPattern.Observer.Observer"/>
@@ -53,11 +47,17 @@
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
     <fullyQualifiedTypeName name="com.bridgelabz.model.User"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="com.bridgelabz.model.Message"/>
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
     <fullyQualifiedTypeName name="com.bridgelabz.dao.UserDao"/>
     <fullyQualifiedTypeName name="com.bridgelabz.util.DbConnectionProvider"/>
     <fullyQualifiedTypeName name="com.bridgelabz.config.DatabaseInfo"/>
     <fullyQualifiedTypeName name="com.sun.tools.javac.util.FatalError"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="com.bridgelabz.config.DBconfig"/>
+    <fullyQualifiedTypeName name="com.sun.org.slf4j.internal.Logger"/>
+    <fullyQualifiedTypeName name="java.util.logging.Logger"/>
+    <fullyQualifiedTypeName name="jdk.jfr.internal.Logger"/>
+    <fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
 </qualifiedTypeNameHistroy>

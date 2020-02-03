@@ -41,7 +41,7 @@ public class UserDao {
 
 	}
 
-	// get user by email and pssword
+	// get user by email and password
 	public User getUserByEmailAndPassword(String email, String password) {
 		User user = null;
 		try {

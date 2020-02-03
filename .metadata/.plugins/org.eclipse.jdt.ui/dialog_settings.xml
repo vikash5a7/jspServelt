@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item key="org.eclipse.jdt.ui.lastextjar" value="/home/mobicomp/eclipse-workspace/TechBlog/WebContent/WEB-INF/lib"/>
+	<item key="org.eclipse.jdt.ui.lastextjar" value="/home/mobicomp/eclipse-workspace/loginAndRegistration/WebContent/WEB-INF/lib"/>
 	<item key="delegateUpdating" value="false"/>
 	<section name="completion_proposal_size">
 		<item key="contextSelector.size.x" value="321"/>
@@ -11,7 +11,7 @@
 	<section name="JavaElementSearchActions">
 	</section>
 	<section name="BuildPathsPropertyPage">
-		<item key="pageIndex" value="2"/>
+		<item key="pageIndex" value="0"/>
 	</section>
 	<section name="NewPackageWizardPage">
 		<item key="create_package_info_java" value="false"/>
@@ -83,7 +83,7 @@
 		<item key="OmitCallToSuper" value="false"/>
 	</section>
 	<section name="DialogBounds_GenerateConstructorUsingFieldsSelectionDialog">
-		<item key="DIALOG_X_ORIGIN" value="334"/>
+		<item key="DIALOG_X_ORIGIN" value="643"/>
 		<item key="DIALOG_Y_ORIGIN" value="0"/>
 		<item key="DIALOG_WIDTH" value="636"/>
 		<item key="DIALOG_HEIGHT" value="740"/>

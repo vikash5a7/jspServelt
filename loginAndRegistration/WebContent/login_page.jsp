@@ -41,23 +41,22 @@
 						</div>
 
 						<%
-						 Message m= (Message) session.getAttribute("msg");
-                                if (m != null) {
-                            %>
-						<div class="alert <%= m.getCssClass() %>" role="alert">
-							<%= m.getContent() %>
+							Message m = (Message) session.getAttribute("msg");
+							if (m != null) {
+						%>
+						<div class="alert <%=m.getCssClass()%>" role="alert">
+							<%=m.getContent()%>
 						</div>
 
 
-						<%        
-                                    session.removeAttribute("msg");
-                                }
-
-                            %>
+						<%
+							session.removeAttribute("msg");
+							}
+						%>
 
 
 						<div class="card-body">
-							<form action="LoginServlet" method="post">
+							<form action="loginServlet" method="post">
 								<div class="form-group">
 									<label for="exampleInputEmail1">Email address</label> <input
 										name="email" required type="email" class="form-control"

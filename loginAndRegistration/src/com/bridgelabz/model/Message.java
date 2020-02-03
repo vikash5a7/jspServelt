@@ -6,7 +6,6 @@ public class Message {
 	private String cssClass;
 
 	public Message(String content, String type, String cssClass) {
-		super();
 		this.content = content;
 		this.type = type;
 		this.cssClass = cssClass;

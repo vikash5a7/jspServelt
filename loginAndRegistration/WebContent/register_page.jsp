@@ -37,7 +37,7 @@
 						here
 					</div>
 					<div class="card-body">
-						<form id="reg-form" action="RegisterServlets" method="POST">
+						<form id="reg-form" action="registerServlets" method="POST">
 
 							<div class="form-group">
 								<label for="user_name">User Name</label> <input name="user_name"
@@ -142,7 +142,7 @@
                        $("#loader").show();
                        //send register servlet:
                        $.ajax({
-                           url: "RegisterServlets",
+                           url: "registerServlets",
                            type: 'POST',
                            data: form,
                            success: function (data, textStatus, jqXHR) {
