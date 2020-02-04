@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.bridgrLabz.Controller;
+package com.bridgeLabz.controller;
 
 import java.io.IOException;
 import java.io.PrintWriter;

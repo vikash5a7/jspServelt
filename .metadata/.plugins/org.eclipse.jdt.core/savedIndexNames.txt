@@ -3,7 +3,6 @@ INDEX VERSION 1.131+/home/mobicomp/eclipse-workspace/.metadata/.plugins/org.ecli
 1143777379.index
 823457500.index
 2017131495.index
-3100488822.index
 1994775059.index
 3660182888.index
 2923796652.index

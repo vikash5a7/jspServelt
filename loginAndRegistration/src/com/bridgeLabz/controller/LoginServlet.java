@@ -1,4 +1,4 @@
-package com.bridgrLabz.Controller;
+package com.bridgeLabz.controller;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
