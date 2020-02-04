@@ -37,7 +37,7 @@
 
 
 	<nav class="navbar navbar-expand-lg navbar-dark primary-background">
-		<a class="navbar-brand" href="index.jsp"><span
+		<a class="navbar-brand" href="profile.jsp"><span
 			class="fa fa-diamond"></span>Vikash</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse"
 			data-target="#navbarSupportedContent"

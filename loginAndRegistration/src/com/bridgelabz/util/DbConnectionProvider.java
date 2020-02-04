@@ -13,6 +13,7 @@ public class DbConnectionProvider {
 
 	private static DbConnectionProvider dbConnection;
 	static final Logger LOGGER = Logger.getLogger(DbConnectionProvider.class);
+	
 
 	// providing connection
 	public Connection connectionProvider() {
@@ -22,15 +23,16 @@ public class DbConnectionProvider {
 					DBconfig.getDatabasePassword());
 			LOGGER.debug("Succefully Connected to database");
 		} catch (SQLException | ClassNotFoundException e) {
+			LOGGER.error(e);
 			e.printStackTrace();
 		}
 		return connection;
-
 	}
 
 	private DbConnectionProvider() {
 
 	}
+	
 
 	// providing instance of this class
 	public static DbConnectionProvider getInstanceOfDb() {
@@ -40,6 +42,5 @@ public class DbConnectionProvider {
 			}
 		}
 		return dbConnection;
-
 	}
 }

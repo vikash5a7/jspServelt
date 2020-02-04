@@ -1,12 +1,13 @@
 package com.bridgelabz.config;
+
 public class DBconfig {
-	
+
 	private static final String DATABASE_URL = "jdbc:mysql://localhost:3306/vicky";
 	private static final String DATABSE_USER_NAME = "root";
 	private static final String DATABASE_PASSWORD = "VIKASkumar@123";
 	private static final String DRIVER_NAME = "com.mysql.cj.jdbc.Driver";
 	private static final String QUERRY = "insert into user(name,email,password, gender, userInfo) values(?,?,?,?,?)";
-	
+
 	public static String getQuerry() {
 		return QUERRY;
 	}
@@ -26,5 +27,4 @@ public class DBconfig {
 	public static String getDriverName() {
 		return DRIVER_NAME;
 	}
-
 }

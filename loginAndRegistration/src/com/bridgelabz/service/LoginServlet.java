@@ -15,21 +15,26 @@ import com.bridgelabz.model.User;
 import com.bridgelabz.util.DbConnectionProvider;
 
 /**
- * Servlet implementation class LoginServlet
+ * @author vikash kumar
+ * @date: 04/04/2020
+ * @version: 1.1
+ * Servlet implementation class RegisterServlets
+ * this is login servltes
+ * 
  */
-
 public class LoginServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	static final Logger LOGGER = Logger.getLogger(LoginServlet.class);
+
 	@Override
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		System.out.println("Login servlets");
+		LOGGER.debug("Login servlets ");
 		String userEmail = request.getParameter("email");
 		String userPassword = request.getParameter("password");
-		System.out.println(userEmail + " " + userPassword);
-		
+		LOGGER.debug(userEmail + " " + userPassword);
+
 		UserDao dao = new UserDao(DbConnectionProvider.getInstanceOfDb().connectionProvider());
 		User user = dao.getUserByEmailAndPassword(userEmail, userPassword);
 
@@ -41,17 +46,16 @@ public class LoginServlet extends HttpServlet {
 				response.sendRedirect("login_page.jsp");
 				HttpSession session = request.getSession();
 				session.setAttribute("msg", msg);
-				
 
 			} else {
 				HttpSession s = request.getSession();
 				s.setAttribute("currentUser", user);
 				response.sendRedirect("profile.jsp");
-				LOGGER.debug("sucessfull Loging with  " +user.getName());
+				LOGGER.debug("sucessfull Loging with  " + user.getName());
 			}
 
 		} catch (Exception e) {
-			LOGGER.warn(e);
+			LOGGER.error(e);
 		}
 
 	}

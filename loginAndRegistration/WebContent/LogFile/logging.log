@@ -1,6 +1,38 @@
-2020-02-03 19:21:22 DEBUG Log4jPropertiesConfigurationExample:52 - sucessfull Logingvishal kumar
 2020-02-03 19:31:02 DEBUG LoginServlet:50 - sucessfull Logingvikash kumar
 2020-02-03 19:48:19 DEBUG DbConnectionProvider:23 - Succefully Connected to database
 2020-02-03 19:48:19 WARN  LoginServlet:40 - Invalide password
 2020-02-03 19:48:31 DEBUG DbConnectionProvider:23 - Succefully Connected to database
 2020-02-03 19:48:31 DEBUG LoginServlet:50 - sucessfull Loging with  vikash kumar
+2020-02-04 08:54:40 DEBUG DbConnectionProvider:23 - Succefully Connected to database
+2020-02-04 08:54:40 WARN  LoginServlet:40 - Invalide password
+2020-02-04 08:54:55 DEBUG DbConnectionProvider:23 - Succefully Connected to database
+2020-02-04 08:54:55 DEBUG LoginServlet:50 - sucessfull Loging with  vikash kumar
+2020-02-04 09:18:08 DEBUG LoginServlet:33 - Login servlets 
+2020-02-04 09:18:08 DEBUG LoginServlet:36 - vikash@gmail.com vikasasdf
+2020-02-04 09:18:10 DEBUG DbConnectionProvider:24 - Succefully Connected to database
+2020-02-04 09:18:10 WARN  LoginServlet:45 - Invalide password
+2020-02-04 09:19:14 DEBUG LoginServlet:33 - Login servlets 
+2020-02-04 09:19:14 DEBUG LoginServlet:36 - vikash@gmail.com vikash
+2020-02-04 09:19:15 DEBUG DbConnectionProvider:24 - Succefully Connected to database
+2020-02-04 09:19:15 DEBUG LoginServlet:54 - sucessfull Loging with  vikash kumar
+2020-02-04 09:19:51 DEBUG LogoutServlet:48 - SucessFully Logout
+2020-02-04 09:28:41 DEBUG LoginServlet:33 - Login servlets 
+2020-02-04 09:28:41 DEBUG LoginServlet:36 - vishal@gmail.com 123
+2020-02-04 09:28:41 DEBUG DbConnectionProvider:24 - Succefully Connected to database
+2020-02-04 09:28:41 DEBUG LoginServlet:54 - sucessfull Loging with  vishal kumar
+2020-02-04 09:31:13 DEBUG LogoutServlet:48 - SucessFully Logout
+2020-02-04 09:35:22 DEBUG RegisterServlets:34 - This is Register Servlets
+2020-02-04 09:35:22 DEBUG RegisterServlets:39 - Box is not checked 
+2020-02-04 09:36:47 DEBUG RegisterServlets:34 - This is Register Servlets
+2020-02-04 09:36:47 DEBUG RegisterServlets:39 - Box is not checked 
+2020-02-04 09:37:32 DEBUG RegisterServlets:34 - This is Register Servlets
+2020-02-04 09:37:32 DEBUG RegisterServlets:40 - Box is not checked 
+2020-02-04 09:37:39 DEBUG RegisterServlets:34 - This is Register Servlets
+2020-02-04 09:37:40 DEBUG DbConnectionProvider:24 - Succefully Connected to database
+2020-02-04 09:37:40 INFO  RegisterServlets:54 - User Registered with vikashkumar@gmail.com
+2020-02-04 09:37:40 DEBUG RegisterServlets:56 - Done User save
+2020-02-04 09:38:01 DEBUG LoginServlet:33 - Login servlets 
+2020-02-04 09:38:01 DEBUG LoginServlet:36 - vikashkumar@gmail.com 123
+2020-02-04 09:38:01 DEBUG DbConnectionProvider:24 - Succefully Connected to database
+2020-02-04 09:38:01 DEBUG LoginServlet:54 - sucessfull Loging with  vikash kumar
+2020-02-04 09:41:51 DEBUG LogoutServlet:48 - SucessFully Logout

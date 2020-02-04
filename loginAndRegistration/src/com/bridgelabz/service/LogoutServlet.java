@@ -18,14 +18,17 @@ import org.apache.log4j.Logger;
 import com.bridgelabz.model.Message;
 
 /**
- *
  * @author vikash kumar
+ * @date: 04/04/2020
+ * @version: 1.1
+ * This is Logout servlets
+ * 
  */
 public class LogoutServlet extends HttpServlet {
 
 	private static final long serialVersionUID = -4640444441703845486L;
 	static final Logger LOGGER = Logger.getLogger(LogoutServlet.class);
-	
+
 	protected void processRequest(HttpServletRequest request, HttpServletResponse response) throws IOException {
 		response.setContentType("text/html;charset=UTF-8");
 		try (PrintWriter out = response.getWriter()) {
@@ -38,7 +41,7 @@ public class LogoutServlet extends HttpServlet {
 			out.println("<body>");
 
 			HttpSession s = request.getSession();
-
+			
 			s.removeAttribute("currentUser");
 
 			Message m = new Message("Logout Successfully", "success", "alert-success");

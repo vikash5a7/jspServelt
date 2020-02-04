@@ -8,6 +8,7 @@
 		<item key="isRegEx" value="false"/>
 		<item key="selection" value="userInfo"/>
 		<list key="findhistory">
+			<item value="package com.bridgelabz.util;"/>
 			<item value="package com.bridgelabz.dao;"/>
 			<item value="about"/>
 			<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;"/>
@@ -22,7 +23,6 @@
 			<item value="/**"/>
 			<item value="Mobile"/>
 			<item value="mobile"/>
-			<item value="Congratulation You got an appointment"/>
 		</list>
 		<list key="replacehistory">
 			<item value="userInfo"/>

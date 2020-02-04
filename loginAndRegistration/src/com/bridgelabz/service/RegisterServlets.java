@@ -16,8 +16,11 @@ import com.bridgelabz.model.User;
 import com.bridgelabz.util.DbConnectionProvider;
 
 /**
- * 
+ * @author vikash kumar
+ * @date: 04/04/2020
+ * @version: 1.1
  * Servlet implementation class RegisterServlets
+ * this is register servlets 
  * 
  */
 @MultipartConfig
@@ -33,6 +36,7 @@ public class RegisterServlets extends HttpServlet {
 		try {
 			PrintWriter out = response.getWriter();
 			if (check == null) {
+				out.print("please check the terms and condition");
 				LOGGER.debug("Box is not checked ");
 			} else {
 				String name = request.getParameter("user_name");
@@ -45,8 +49,9 @@ public class RegisterServlets extends HttpServlet {
 
 				// creating user and setting it's parameter in contractor
 				User user = new User(name, email, password, gender, about);
-				System.out.println(about);
+
 				if (dao.saveUser(user)) {
+					LOGGER.info("User Registered with " + user.getEmail());
 					out.print("done");
 					LOGGER.debug("Done User save");
 				} else {
