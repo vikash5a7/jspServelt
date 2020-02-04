@@ -3,11 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.bridgelabz.service;
+package com.bridgrLabz.Controller;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -20,8 +19,7 @@ import com.bridgelabz.model.Message;
 /**
  * @author vikash kumar
  * @date: 04/04/2020
- * @version: 1.1
- * This is Logout servlets
+ * @version: 1.1 This is Logout servlets
  * 
  */
 public class LogoutServlet extends HttpServlet {
@@ -29,19 +27,13 @@ public class LogoutServlet extends HttpServlet {
 	private static final long serialVersionUID = -4640444441703845486L;
 	static final Logger LOGGER = Logger.getLogger(LogoutServlet.class);
 
-	protected void processRequest(HttpServletRequest request, HttpServletResponse response) throws IOException {
+	@Override
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
 		response.setContentType("text/html;charset=UTF-8");
 		try (PrintWriter out = response.getWriter()) {
-
-			out.println("<!DOCTYPE html>");
-			out.println("<html>");
-			out.println("<head>");
-			out.println("<title>Servlet LogoutServlet</title>");
-			out.println("</head>");
-			out.println("<body>");
-
 			HttpSession s = request.getSession();
-			
+
+			// removing the current user from the session
 			s.removeAttribute("currentUser");
 
 			Message m = new Message("Logout Successfully", "success", "alert-success");
@@ -53,22 +45,9 @@ public class LogoutServlet extends HttpServlet {
 
 			out.println("</body>");
 			out.println("</html>");
-		}
-	}
-
-	@Override
-	protected void doGet(HttpServletRequest request, HttpServletResponse response)
-			throws ServletException, IOException {
-		try {
-			processRequest(request, response);
 		} catch (Exception e) {
-			e.printStackTrace();
+			LOGGER.error(e);
 		}
 	}
-
-	@Override
-	public String getServletInfo() {
-		return "Short description";
-	}// </editor-fold>
 
 }

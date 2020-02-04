@@ -1,4 +1,4 @@
-package com.bridgelabz.service;
+package com.bridgrLabz.Controller;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -6,21 +6,17 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-
 import org.apache.log4j.Logger;
-
-import com.bridgelabz.dao.UserDao;
 import com.bridgelabz.model.Message;
 import com.bridgelabz.model.User;
-import com.bridgelabz.util.DbConnectionProvider;
+import com.bridgelabz.service.ServiceImplemation;
 
 /**
+ * Servlet implementation class RegisterServlets this is login servltes
+ * 
  * @author vikash kumar
  * @date: 04/04/2020
  * @version: 1.1
- * Servlet implementation class RegisterServlets
- * this is login servltes
- * 
  */
 public class LoginServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
@@ -35,8 +31,8 @@ public class LoginServlet extends HttpServlet {
 		String userPassword = request.getParameter("password");
 		LOGGER.debug(userEmail + " " + userPassword);
 
-		UserDao dao = new UserDao(DbConnectionProvider.getInstanceOfDb().connectionProvider());
-		User user = dao.getUserByEmailAndPassword(userEmail, userPassword);
+		ServiceImplemation service = new ServiceImplemation();
+		User user = service.loginByUserEmailAndPassword(userEmail, userPassword);
 
 		try {
 			if (user == null) {

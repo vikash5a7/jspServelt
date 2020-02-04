@@ -7,17 +7,17 @@
 
 	<servlet>
 		<servlet-name>RegisterServlet</servlet-name>
-		<servlet-class>com.bridgelabz.service.RegisterServlets</servlet-class>
+		<servlet-class>com.bridgrLabz.Controller.RegisterServlets</servlet-class>
 	</servlet>
 
 	<servlet>
 		<servlet-name>login</servlet-name>
-		<servlet-class>com.bridgelabz.service.LoginServlet</servlet-class>
+		<servlet-class>com.bridgrLabz.Controller.LoginServlet</servlet-class>
 	</servlet>
 
 	<servlet>
 		<servlet-name>logout</servlet-name>
-		<servlet-class>com.bridgelabz.service.LogoutServlet</servlet-class>
+		<servlet-class>com.bridgrLabz.Controller.LogoutServlet</servlet-class>
 	</servlet>
 
 	<servlet-mapping>

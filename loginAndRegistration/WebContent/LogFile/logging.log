@@ -36,3 +36,62 @@
 2020-02-04 09:38:01 DEBUG DbConnectionProvider:24 - Succefully Connected to database
 2020-02-04 09:38:01 DEBUG LoginServlet:54 - sucessfull Loging with  vikash kumar
 2020-02-04 09:41:51 DEBUG LogoutServlet:48 - SucessFully Logout
+2020-02-04 12:30:03 DEBUG LoginServlet:33 - Login servlets 
+2020-02-04 12:30:03 DEBUG LoginServlet:36 - vikash@gmail.com vikash
+2020-02-04 12:30:05 DEBUG DbConnectionProvider:24 - Succefully Connected to database
+2020-02-04 12:30:05 DEBUG LoginServlet:54 - sucessfull Loging with  vikash kumar
+2020-02-04 12:30:12 DEBUG LogoutServlet:48 - SucessFully Logout
+2020-02-04 13:41:44 DEBUG LoginServlet:33 - Login servlets 
+2020-02-04 13:41:44 DEBUG LoginServlet:36 - vikash@gmail.com vikash
+2020-02-04 13:41:44 DEBUG DbConnectionProvider:24 - Succefully Connected to database
+2020-02-04 13:41:44 DEBUG LoginServlet:54 - sucessfull Loging with  vikash kumar
+2020-02-04 13:47:48 DEBUG LogoutServlet:48 - SucessFully Logout
+2020-02-04 18:29:21 DEBUG LoginServlet:35 - Login servlets 
+2020-02-04 18:29:21 DEBUG LoginServlet:38 - vikash@gmail.com vikash
+2020-02-04 18:29:23 DEBUG DbConnectionProvider:24 - Succefully Connected to database
+2020-02-04 18:29:23 DEBUG LoginServlet:56 - sucessfull Loging with  vikash kumar
+2020-02-04 18:30:39 DEBUG LoginServlet:35 - Login servlets 
+2020-02-04 18:30:39 DEBUG LoginServlet:38 - vikash@gmail.com vikash
+2020-02-04 18:30:40 DEBUG DbConnectionProvider:24 - Succefully Connected to database
+2020-02-04 18:30:40 DEBUG LoginServlet:56 - sucessfull Loging with  vikash kumar
+2020-02-04 18:30:41 DEBUG LogoutServlet:48 - SucessFully Logout
+2020-02-04 18:31:04 DEBUG LoginServlet:35 - Login servlets 
+2020-02-04 18:31:04 DEBUG LoginServlet:38 - vikash@gmail.com vikash
+2020-02-04 18:31:04 DEBUG DbConnectionProvider:24 - Succefully Connected to database
+2020-02-04 18:31:04 DEBUG LoginServlet:56 - sucessfull Loging with  vikash kumar
+2020-02-04 18:33:09 DEBUG LoginServlet:35 - Login servlets 
+2020-02-04 18:33:09 DEBUG LoginServlet:38 - vikash@gmail.com vikash
+2020-02-04 18:33:10 DEBUG DbConnectionProvider:24 - Succefully Connected to database
+2020-02-04 18:33:10 DEBUG LoginServlet:56 - sucessfull Loging with  vikash kumar
+2020-02-04 18:33:11 DEBUG LogoutServlet:48 - SucessFully Logout
+2020-02-04 18:34:54 DEBUG LoginServlet:35 - Login servlets 
+2020-02-04 18:34:54 DEBUG LoginServlet:38 - vikash@gmail.com vikash
+2020-02-04 18:34:55 DEBUG DbConnectionProvider:24 - Succefully Connected to database
+2020-02-04 18:34:55 DEBUG LoginServlet:56 - sucessfull Loging with  vikash kumar
+2020-02-04 18:34:56 DEBUG LogoutServlet:39 - SucessFully Logout
+2020-02-04 18:35:08 DEBUG LoginServlet:35 - Login servlets 
+2020-02-04 18:35:08 DEBUG LoginServlet:38 - vikashd@gmail.com ljkasdfasdf
+2020-02-04 18:35:08 DEBUG DbConnectionProvider:24 - Succefully Connected to database
+2020-02-04 18:35:08 WARN  LoginServlet:47 - Invalide password
+2020-02-04 18:35:47 DEBUG RegisterServlets:30 - This is Register Servlets
+2020-02-04 18:35:47 DEBUG DbConnectionProvider:24 - Succefully Connected to database
+2020-02-04 18:35:47 ERROR UserDao:42 - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'vikash@gmail.com' for key 'email'
+2020-02-04 18:35:47 ERROR RegisterServlets:53 - Something wents wrong
+2020-02-04 18:35:56 DEBUG RegisterServlets:30 - This is Register Servlets
+2020-02-04 18:35:56 DEBUG DbConnectionProvider:24 - Succefully Connected to database
+2020-02-04 18:35:56 ERROR UserDao:42 - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'vikash1@gmail.com' for key 'email'
+2020-02-04 18:35:56 ERROR RegisterServlets:53 - Something wents wrong
+2020-02-04 18:36:03 DEBUG RegisterServlets:30 - This is Register Servlets
+2020-02-04 18:36:03 DEBUG DbConnectionProvider:24 - Succefully Connected to database
+2020-02-04 18:36:03 INFO  RegisterServlets:48 - User Registered with vikash112312@gmail.com
+2020-02-04 18:36:03 DEBUG RegisterServlets:50 - Done User save
+2020-02-04 18:40:09 DEBUG LoginServlet:35 - Login servlets 
+2020-02-04 18:40:09 DEBUG LoginServlet:38 - vikash@gmail.com vikash
+2020-02-04 18:40:10 DEBUG DbConnectionProvider:24 - Succefully Connected to database
+2020-02-04 18:40:10 DEBUG LoginServlet:56 - sucessfull Loging with  vikash kumar
+2020-02-04 19:03:09 DEBUG LogoutServlet:40 - SucessFully Logout
+2020-02-04 19:03:48 DEBUG LoginServlet:31 - Login servlets 
+2020-02-04 19:03:48 DEBUG LoginServlet:34 - vikash@gmail.com vikash
+2020-02-04 19:03:48 DEBUG DbConnectionProvider:26 - Succefully Connected to database
+2020-02-04 19:03:49 DEBUG LoginServlet:52 - sucessfull Loging with  vikash kumar
+2020-02-04 19:04:27 DEBUG LogoutServlet:40 - SucessFully Logout

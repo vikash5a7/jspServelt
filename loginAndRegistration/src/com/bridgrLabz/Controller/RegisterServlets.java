@@ -1,4 +1,4 @@
-package com.bridgelabz.service;
+package com.bridgrLabz.Controller;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -8,19 +8,15 @@ import javax.servlet.annotation.MultipartConfig;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
 import org.apache.log4j.Logger;
-
-import com.bridgelabz.dao.UserDao;
 import com.bridgelabz.model.User;
-import com.bridgelabz.util.DbConnectionProvider;
+import com.bridgelabz.service.ServiceImplemation;
 
 /**
  * @author vikash kumar
  * @date: 04/04/2020
- * @version: 1.1
- * Servlet implementation class RegisterServlets
- * this is register servlets 
+ * @version: 1.1 Servlet implementation class RegisterServlets this is register
+ *           servlets
  * 
  */
 @MultipartConfig
@@ -45,13 +41,11 @@ public class RegisterServlets extends HttpServlet {
 				String gender = request.getParameter("gender");
 				String about = request.getParameter("about");
 
-				UserDao dao = new UserDao(DbConnectionProvider.getInstanceOfDb().connectionProvider());
+				User newUser = new User(name, email, password, gender, about);
+				ServiceImplemation service = new ServiceImplemation();
 
-				// creating user and setting it's parameter in contractor
-				User user = new User(name, email, password, gender, about);
-
-				if (dao.saveUser(user)) {
-					LOGGER.info("User Registered with " + user.getEmail());
+				if (service.userRegistred(newUser)) {
+					LOGGER.info("User Registered with " + newUser.getEmail());
 					out.print("done");
 					LOGGER.debug("Done User save");
 				} else {

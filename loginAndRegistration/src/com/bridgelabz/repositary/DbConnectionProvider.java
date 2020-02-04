@@ -1,11 +1,9 @@
-package com.bridgelabz.util;
+package com.bridgelabz.repositary;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-
 import org.apache.log4j.Logger;
-
 import com.bridgelabz.config.DBconfig;
 
 public class DbConnectionProvider {
@@ -13,9 +11,13 @@ public class DbConnectionProvider {
 
 	private static DbConnectionProvider dbConnection;
 	static final Logger LOGGER = Logger.getLogger(DbConnectionProvider.class);
-	
 
-	// providing connection
+	/**
+	 * providing connection of database
+	 * 
+	 * @return it's returning the data base connection
+	 * 
+	 */
 	public Connection connectionProvider() {
 		try {
 			Class.forName(DBconfig.getDriverName());
@@ -32,9 +34,12 @@ public class DbConnectionProvider {
 	private DbConnectionProvider() {
 
 	}
-	
 
-	// providing instance of this class
+	/**
+	 * providing instance of this class
+	 * 
+	 * @return dataBase connection class object
+	 */
 	public static DbConnectionProvider getInstanceOfDb() {
 		synchronized (DbConnectionProvider.class) {
 			if (dbConnection == null) {

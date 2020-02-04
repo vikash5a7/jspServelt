@@ -12,16 +12,24 @@ import com.bridgelabz.model.User;
 
 public class UserDao {
 	static final Logger LOGGER = Logger.getLogger(UserDao.class);
-	
+
 	private Connection con;
 
-	// constructor using
+	/**
+	 * constructor using
+	 * 
+	 * @param con
+	 */
 	public UserDao(Connection con) {
 		this.con = con;
 	}
-	
 
-	// method to insert the user..
+	/**
+	 * method to insert the user..
+	 * 
+	 * @param user
+	 * @return boolean value
+	 */
 
 	public boolean saveUser(User user) {
 		boolean f = false;
@@ -45,7 +53,13 @@ public class UserDao {
 
 	}
 
-	// get user by email and password
+	/**
+	 * get user by email and password
+	 * 
+	 * @param email
+	 * @param password
+	 * @return
+	 */
 	public User getUserByEmailAndPassword(String email, String password) {
 		User user = null;
 		try {
