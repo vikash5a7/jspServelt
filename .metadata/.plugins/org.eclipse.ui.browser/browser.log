@@ -950,3 +950,43 @@ Feb 04, 2020 19:17:48.13 [17713:1:0204/191748.134647:ERROR:child_process_sandbox
 Feb 04, 2020 19:18:15.89 [17726:1:0204/191815.898453:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
 Feb 04, 2020 19:18:15.90 [17726:1:0204/191815.900017:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
 Feb 04, 2020 19:27:55.45 Opening in existing browser session.
+
+Feb 07, 2020 15:38:34.48 NEW SESSION
+Feb 07, 2020 15:38:34.48 [6720:6720:0207/153834.487643:ERROR:sandbox_linux.cc(372)] InitializeSandbox() called with multiple threads in process gpu-process.
+Feb 07, 2020 15:38:34.83 [6683:6683:0207/153834.829820:ERROR:account_tracker.cc(241)] AccessTokenFetched error: Invalid credentials (credentials rejected by client).
+Feb 07, 2020 15:38:34.83 [6683:6683:0207/153834.836373:ERROR:account_info_fetcher.cc(60)] OnGetTokenFailure: Invalid credentials (credentials rejected by client).
+Feb 07, 2020 15:38:42.88 [6683:6683:0207/153842.879537:ERROR:account_info_fetcher.cc(60)] OnGetTokenFailure: Request canceled.
+Feb 07, 2020 15:44:51.24 [7426:7426:0207/154451.249485:ERROR:sandbox_linux.cc(372)] InitializeSandbox() called with multiple threads in process gpu-process.
+Feb 07, 2020 15:44:51.58 [7389:7389:0207/154451.587932:ERROR:account_tracker.cc(241)] AccessTokenFetched error: Invalid credentials (credentials rejected by client).
+Feb 07, 2020 15:44:55.49 [7389:7409:0207/154455.495803:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Feb 07, 2020 15:44:55.50 [7389:7409:0207/154455.499984:ERROR:checkin_request.cc(223)] Failed to get checkin response. Fetcher failed. Retrying.
+Feb 07, 2020 15:45:19.87 [7389:7409:0207/154519.871387:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Feb 07, 2020 15:45:22.80 [7389:7409:0207/154522.808931:ERROR:checkin_request.cc(223)] Failed to get checkin response. Fetcher failed. Retrying.
+Feb 07, 2020 15:45:24.57 [7389:7389:0207/154524.577835:ERROR:account_tracker.cc(241)] AccessTokenFetched error: Connection failed (-105).
+Feb 07, 2020 15:46:03.77 [7389:7409:0207/154603.777646:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Feb 07, 2020 15:46:13.15 [7389:7409:0207/154613.156075:ERROR:checkin_request.cc(223)] Failed to get checkin response. Fetcher failed. Retrying.
+Feb 07, 2020 15:47:56.33 [7389:7409:0207/154756.334505:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Feb 07, 2020 15:47:57.62 [7389:7409:0207/154757.629618:ERROR:checkin_request.cc(223)] Failed to get checkin response. Fetcher failed. Retrying.
+Feb 07, 2020 15:48:02.15 [7389:7389:0207/154802.153988:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Feb 07, 2020 15:48:22.90 Opening in existing browser session.
+Feb 07, 2020 15:48:26.32 [7389:7389:0207/154826.321629:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Feb 07, 2020 15:54:49.40 [8481:8481:0207/155449.403885:ERROR:sandbox_linux.cc(372)] InitializeSandbox() called with multiple threads in process gpu-process.
+Feb 07, 2020 15:54:49.86 [8441:8441:0207/155449.866575:ERROR:account_tracker.cc(241)] AccessTokenFetched error: Invalid credentials (credentials rejected by client).
+Feb 07, 2020 15:54:59.33 [8441:8441:0207/155459.329855:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Feb 07, 2020 15:55:03.59 [8441:8461:0207/155503.596561:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Feb 07, 2020 15:55:03.59 [8441:8461:0207/155503.599188:ERROR:checkin_request.cc(223)] Failed to get checkin response. Fetcher failed. Retrying.
+Feb 07, 2020 15:55:23.18 [8441:8441:0207/155523.182954:ERROR:account_tracker.cc(241)] AccessTokenFetched error: Connection failed (-105).
+Feb 07, 2020 15:55:26.43 [8441:8441:0207/155526.431439:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Feb 07, 2020 15:55:28.39 [8441:8461:0207/155528.390011:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Feb 07, 2020 15:55:29.60 [8441:8461:0207/155529.609473:ERROR:checkin_request.cc(223)] Failed to get checkin response. Fetcher failed. Retrying.
+Feb 07, 2020 15:56:12.17 [8441:8461:0207/155612.172611:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Feb 07, 2020 15:56:16.20 [8441:8441:0207/155616.200866:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Feb 07, 2020 15:56:18.05 [8441:8461:0207/155618.056092:ERROR:checkin_request.cc(223)] Failed to get checkin response. Fetcher failed. Retrying.
+Feb 07, 2020 15:57:04.28 Opening in existing browser session.
+Feb 07, 2020 15:57:49.18 [8441:8461:0207/155749.188415:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Feb 07, 2020 15:57:56.11 [8441:8461:0207/155756.118429:ERROR:checkin_request.cc(223)] Failed to get checkin response. Fetcher failed. Retrying.
+Feb 07, 2020 15:57:58.75 [8441:8441:0207/155758.754326:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Feb 07, 2020 16:00:49.67 [8441:8461:0207/160049.670440:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Feb 07, 2020 16:01:05.38 Opening in existing browser session.
+Feb 07, 2020 16:01:39.04 [8441:8441:0207/160139.040854:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Feb 07, 2020 16:01:40.73 [8441:8461:0207/160140.730702:ERROR:checkin_request.cc(223)] Failed to get checkin response. Fetcher failed. Retrying.
